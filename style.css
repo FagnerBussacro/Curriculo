@@ -1,0 +1,89 @@
+@font-face {
+    font-family: fragment-core;
+    src: url(fontes/Fragmentcore.otf);
+}
+:root{
+    --cor-primaria:#63231d;
+    --cor-subtitulo:#dedcdc;
+    --cor-fundo: #86433a;/*#6B5E55*/
+    --cor-lado-esquerdo: #d5bebe;
+    --fonte-family:fragment-core;
+    --fonte-tamanho: 20px;
+}
+body{
+    font-family: var(--fonte-family);
+    font-size:var(--fonte-tamanho);
+    background-color: var(--cor-fundo);
+}
+header{
+    text-align: left;
+    margin-left:40vh;
+    font-style: italic;
+}
+.perfil{
+    text-align: center;
+    margin-left: 40vh;
+    width: 50%;
+    justify-content: center;
+}
+.formacao_academica{
+    text-align: center;
+    margin-left: 40vh;
+    width: 50%;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.curso,
+.job{
+    color: var(--cor-subtitulo);
+    font-style: italic;
+    margin-top: 10px;
+}
+.job-name{
+    margin: 10px 0 10px 0;
+
+}
+
+li{
+    list-style-type: none;
+}
+.informacoes{
+    background-color: var(--cor-primaria);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    padding: 20px;
+    margin-right: 80px;
+    font-size: 17px;
+    
+}
+.img_perfil{
+    border-radius: 25%;
+    height: 400px;
+    width: 300px;
+}
+.subtitulo{
+    color: rgb(16, 16, 16);
+}
+.habilidades,
+.endereco,
+.social{
+    color:var(--cor-lado-esquerdo)
+
+}
+
+.social{
+    padding: 5px;
+}
+a{
+    color: inherit;
+    text-decoration: none !important;
+    transition: color 0.5s ease;
+}
+a:hover{
+    color: rgb(7, 242, 164)
+}
